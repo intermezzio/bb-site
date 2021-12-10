@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on BB-Gr8</title>
-    <link>www.intermezzio.me/bb-site/tags/</link>
+    <link>https://intermezzio.github.io/bb-site/tags/</link>
     <description>Recent content in Tags on BB-Gr8</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="www.intermezzio.me/bb-site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://intermezzio.github.io/bb-site/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

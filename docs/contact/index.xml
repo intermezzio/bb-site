@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on BB-Gr8</title>
-    <link>www.intermezzio.me/bb-site/contact/</link>
+    <link>https://intermezzio.github.io/bb-site/contact/</link>
     <description>Recent content in Contact on BB-Gr8</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2018 17:01:34 +0700</lastBuildDate><atom:link href="www.intermezzio.me/bb-site/contact/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Feb 2018 17:01:34 +0700</lastBuildDate><atom:link href="https://intermezzio.github.io/bb-site/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
