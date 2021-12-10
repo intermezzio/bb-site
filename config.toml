@@ -1,4 +1,4 @@
-baseURL = "www.intermezzio.me/bb-site"
+baseURL = "www.intermezzio.me/bb-site/"
 languageCode = "en-us"
 title = "BB-Gr8"
 themesDir = "themes/"
