@@ -1,9 +1,10 @@
 ---
 title: 'Firmware'
 date: 2018-11-28T15:15:26+10:00
-icon: 'features/service-icon-3.png'
-featured: true
+icon: 'icons8-arduino-100.png'
 draft: false
+featured: true
+weight: 4
 heroHeading: 'Firmware'
 heroSubHeading: 'How the robot is programmed to operate'
 heroBackground: 'services/service1.jpg'

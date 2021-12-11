@@ -22,13 +22,12 @@ Motor drivers insert motor shield info ? maybe put it in a new section</descript
     </item>
     
     <item>
-      <title>Low Cost</title>
-      <link>https://intermezzio.github.io/bb-site/features/budget/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
+      <title>Mechanical</title>
+      <link>https://intermezzio.github.io/bb-site/features/mechanical/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
-      <guid>https://intermezzio.github.io/bb-site/features/budget/</guid>
-      <description>This project could be replicated with a $250 budget, as our team was resourceful in its use of materials to create an effective robot at a low cost.
-Budget table for budget</description>
+      <guid>https://intermezzio.github.io/bb-site/features/mechanical/</guid>
+      <description>Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares ignisque quaerit dederat gemino Aethiopesque caelo ulciscitur est. Morte lugebere conatur Pallada quaerentes tulit, ignis vagatur undis, latitantem ignemque non laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat Coroneus est qui viscere barbariam seris. Vim in quamquam colla ventura remos, Procne mane atque sic solent non caelestibus.</description>
     </item>
     
     <item>
@@ -53,12 +52,13 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
     </item>
     
     <item>
-      <title>Mechanical</title>
-      <link>https://intermezzio.github.io/bb-site/features/mechanical/</link>
-      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      <title>Low Cost</title>
+      <link>https://intermezzio.github.io/bb-site/features/budget/</link>
+      <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
-      <guid>https://intermezzio.github.io/bb-site/features/mechanical/</guid>
-      <description>Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares ignisque quaerit dederat gemino Aethiopesque caelo ulciscitur est. Morte lugebere conatur Pallada quaerentes tulit, ignis vagatur undis, latitantem ignemque non laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat Coroneus est qui viscere barbariam seris. Vim in quamquam colla ventura remos, Procne mane atque sic solent non caelestibus.</description>
+      <guid>https://intermezzio.github.io/bb-site/features/budget/</guid>
+      <description>This project could be replicated with a $250 budget, as our team was resourceful in its use of materials to create an effective robot at a low cost.
+Budget table for budget</description>
     </item>
     
   </channel>

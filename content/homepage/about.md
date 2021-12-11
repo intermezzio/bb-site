@@ -1,9 +1,9 @@
 ---
-title: 'Our Difference'
+title: 'Our Team'
 weight: 2
 background: ''
 button: 'About Us'
 buttonLink: 'about'
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,
+We are a team of 5 engineers at Olin College who set out to create BB-8 as part of the Principles of Integrated Engineering class.

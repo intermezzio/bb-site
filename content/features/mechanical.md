@@ -1,9 +1,10 @@
 ---
 title: 'Mechanical'
 date: 2018-11-28T15:14:39+10:00
-icon: 'features/service-icon-2.png'
-featured: true
+icon: 'icons8-gears-100.png'
 draft: false
+featured: true
+weight: 2
 heroHeading: 'Mechancial Design'
 heroSubHeading: 'How BB-8 is built for success'
 heroBackground: 'services/service2.jpg'

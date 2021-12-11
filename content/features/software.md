@@ -1,9 +1,10 @@
 ---
 title: 'Software'
 date: 2018-11-28T15:15:34+10:00
-icon: 'features/service-icon-4.png'
-featured: true
+icon: 'icons8-code-100.png'
 draft: false
+featured: true
+weight: 3
 heroHeading: 'Software Design'
 heroSubHeading: 'How the server assists in BB-8s Navigation'
 heroBackground: 'services/service2.jpg'

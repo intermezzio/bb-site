@@ -1,9 +1,12 @@
 ---
-title: 'We Help Business Grow'
+title: 'How we made BB-8'
 weight: 1
-background: 'images/kevin-bhagat-461952-unsplash.jpg'
+background: 'bb8-drawing.png'
 button: 'Our Work'
 buttonLink: 'gallery'
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+This BB-8 robot design integrates mechanical, electrical, firmware, and software components
+to create a fully navigatable spherical robot. This robot can be controlled via a virtual
+joystick, and commands are sent from the joystick to the robot in real time for navigating
+in 2D.

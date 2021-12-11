@@ -1,7 +1,7 @@
 ---
 title: 'Electrical'
 date: 2018-11-18T12:33:46+10:00
-icon: 'features/service-icon-1.png'
+icon: 'icons8-circuit-100.png'
 draft: false
 featured: true
 weight: 1
