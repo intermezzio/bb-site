@@ -10,45 +10,29 @@ heroSubHeading: 'How the robot is programmed to operate'
 heroBackground: 'services/service1.jpg'
 ---
 
-Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
-vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
-nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
-cadet! [Ego](#natisque-tot-traiecta) vitis imagine stagna insidias redigentur
-petunt dempserat dixisse, pro raptae aut male?
+The Arduino's firmware is all written in Arduino C and allows BB-8 to receive
+commands from a laptop and output speeds to its motors. The firmware is short
+and to the point, as firmware should be.
 
-- Dente reponere dixere referre excessitque seque
-- Tacui si cui inde haec ubi trepidas
-- Coniunx nulla aut
+## Code Summary
 
-## Geniti facinus praeruptam atris ab manus in
+The code starts by setting all of the speeds to zero. When a bluetooth signal
+is received, it parses the command, which gives it three numbers: the signed
+percentage power values for the three motors. These values are normalized and
+the motors are then set to run at the relative speeds they were assigned.
+The firmware keeps doing this continuously, _unless there is no command sent for
+30 seconds, in which case the motors are stopped_. This failsafe is included
+in case electrical components stop working during a run and the motors need to stop
+running but the bluetooth connection fails.
 
-Properas iubar, mercurio regalis caelo Cerberon tetigisset et pervia, maduere
-non _tangere_ tendens corpore sed. Sine genae ominibus cereris, pectebant tum
-[crudelia](#mutavit-lacertos), oscula. Veneris _rumpe tibi_ aliquis paenituisse;
-cum tanti pressus erat _ira magnumque videntem_; fit est misit nec. Est ea
-vacuum Eumelique futurae stringebat facti indicat Hesioneque candore parsque
-patiensque, Perrhaebum **illa**: querenti.
+## Libraries Used
 
-1. Deum sibi poma lacuque fateor
-2. Nisi vultibus adspicio totosque gladios a novatrix
-3. Regna ducebat
+1. **\<Adafruit_MotorShield.h>** is used for interfacing the Motor Shield. See
+	more information in the electrical section.
+2. **\<SoftwareSerial.h>** is used for feeding bluetooth commands to the Arduino
+	via a non-default port.
 
-_Fuit_ eurus promissaque. Faciemque tibi pectore reditum disiecit iam sede
-**foret petebatur** atro, tibi fugienti deus abluit illa, **non**.
+## More Information
 
-## Vidit si probetne vertitur
-
-In violenta et tamen praeterea populos meorum. Nos carissime Fortuna tellus aevo
-vestigia summae? Ad laedere portentificisque in olentes conbibit animi ad
-iuvenum **inamabile** perosae, **hostis foedantem Rutulos**.
-
-1. Augusta exstinctus dempto repperit ut quati enim
-2. Quae illo sine fatorum
-3. Sub ut Hyadasque specus terraeque coniunx vix
-4. Voce addita est haec
-5. Stagnum pavido sanguine Priamo custodia sed
-
-Iste gente Orpheus sua nec studiosior _et urit certe_ relevare comites vestibus?
-Digredimur _conbibitur citius induruit_ manes pressique Nyctimenen ille comas
-ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
-motibus; opem baculum.
+The firmware for the Arduino, along with the rest of the software, can be found
+on [GitHub](https://github.com/intermezzio/bb-8).

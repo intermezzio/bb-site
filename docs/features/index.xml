@@ -36,9 +36,8 @@ Motor drivers insert motor shield info ? maybe put it in a new section</descript
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/features/software/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
+      <description>The software, written in Python, creates a clean interface for sending commands to BB-8, converting a joystick input to BB-8 commands.
+Joystick The joystick is written in HTML/JS using a canvas element. Since this code is very generic and not central to BB-8&amp;rsquo;s functionality, the frontend of this was based off of an existing HTML joystick. This code was modified to send the position of the joystick (indicating magnitude and direction) to a Python server.</description>
     </item>
     
     <item>
@@ -47,8 +46,8 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/features/firmware/</guid>
-      <description>Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia vixque dixit negari ullis stamina: trahit. Tanta rictus in mitia causa, Phoebo nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato cadet! Ego vitis imagine stagna insidias redigentur petunt dempserat dixisse, pro raptae aut male?
- Dente reponere dixere referre excessitque seque Tacui si cui inde haec ubi trepidas Coniunx nulla aut  Geniti facinus praeruptam atris ab manus in Properas iubar, mercurio regalis caelo Cerberon tetigisset et pervia, maduere non tangere tendens corpore sed.</description>
+      <description>The Arduino&amp;rsquo;s firmware is all written in Arduino C and allows BB-8 to receive commands from a laptop and output speeds to its motors. The firmware is short and to the point, as firmware should be.
+Code Summary The code starts by setting all of the speeds to zero. When a bluetooth signal is received, it parses the command, which gives it three numbers: the signed percentage power values for the three motors.</description>
     </item>
     
     <item>

@@ -10,48 +10,43 @@ heroSubHeading: 'How the server assists in BB-8s Navigation'
 heroBackground: 'services/service2.jpg'
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+The software, written in Python, creates a clean interface for sending commands
+to BB-8, converting a joystick input to BB-8 commands.
 
-## Ne verba patulosque numen vix libet
+## Joystick
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+The joystick is written in HTML/JS using a canvas element. Since this code is
+very generic and not central to BB-8's functionality, the frontend of this was
+based off of [an existing HTML joystick](https://www.instructables.com/Making-a-Joystick-With-HTML-pure-JavaScript/).
+This code was modified to send the position of the joystick (indicating magnitude
+and direction) to a Python server.
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+A Python server works as a REST API for sending joystick commands. The server hosts
+a port on localhost and waits for post requests to its address. This request contains
+a string to send to the Arduino, which is handled by the bluetooth code.
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+## Bluetooth
 
-## Postquam tamen
+BB-8 has a HC-05 bluetooth module that can pair to most electronic devices. When
+this connection is made, a session with the bluetooth module can send data via a
+data stream, represented by a filename on Linux and Windows devices. It acts
+very similar to the file address of a USB port or other output device. The Pyserial
+library can send data to this address and the data is transmitted to the bluetooth
+device as if the address were the address of an Arduino, which makes the bluetooth
+code very similar to normal serial code. When the Bluetooth module receives messages,
+they are all forwarded to the Arduino Sofware Serial port. Initializing this session
+can be tricky, but going into advanced device settings on Windows or using `rfcomm`
+in Linux can create identical bluetooth sessions, allowing the same code to be run cross
+platform.
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+## Library Used
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+1. **Pyserial** is used for sending bluetooth commands.
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+The code did not use any other libraries that aren't builtins, even for the server,
+so this is the only software dependency.
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+## More Information
+
+The software for this project can be found
+on [GitHub](https://github.com/intermezzio/bb-8).
