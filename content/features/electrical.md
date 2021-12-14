@@ -21,7 +21,7 @@ to various other components, including motors and a bluetooth module, to drive B
 
 BB-8 uses a HC-05 Bluetooth chip to communicate between the Arduino and a laptop.
 
-insert flowchart image here
+![image](/static/Electronics_Flowchart.png)
 
 insert explanation here: 
 
