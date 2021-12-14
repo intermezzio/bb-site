@@ -11,5 +11,15 @@ images: ['gallery/sprint2/chassis_bottom.jpg',
 'gallery/sprint2/chassis_on_ground.jpg','gallery/sprint2/chassis_top.jpg','gallery/sprint2/hamster_ball.jpg','gallery/sprint2/bluetooth_session.png','https://source.unsplash.com/random/400x600/?business']
 ---
 
-This sprint focused on adding battery power, sending the first bluetooth signals,
-and redesigning the chassis.
+## Sprint Goal
+In this sprint, we wanted to make our robot wireless.  This included incorporating our Bluetooth module and adding batteries.
+
+## Subteam Progress
+### Software
+Our goal for this sprint was to incorporate the HC-05 bluetooth module onto the robot chassis in order to communicate wirelessley with the Arduino and sent commands in real-time. Our approach was to write a Python script that converted keyboard presses into commands that were sent over Serial to the Bluetooth module. The Arduino firmware processed the incoming command and reacted accordingly. Future steps include incorporating some sort of controller, such as a joystick, and updating the Arduino control code to account for three wheels.
+
+### Mechanical
+In this sprint, we wanted to address a lot of the issues we were facing last sprint and prepare for our new parts coming in the mail.  We started by trying to add weights to the bottom of our robot to lower the center of gravity.  We then designed and began fabricating our motor and Arduino mounts.  We redesigned our chassis to be 2" smaller and integrate our new motors, batteries, & circuitry.  We assembled our updated chassis with new components.
+
+### Electrical
+

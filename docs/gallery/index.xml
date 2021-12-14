@@ -23,7 +23,8 @@ Subteam Progress Software In this sprint, we were able to preload a set of drive
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint2/</guid>
-      <description>This sprint focused on adding battery power, sending the first bluetooth signals, and redesigning the chassis.</description>
+      <description>Sprint Goal In this sprint, we wanted to make our robot wireless. This included incorporating our Bluetooth module and adding batteries.
+Subteam Progress Software Our goal for this sprint was to incorporate the HC-05 bluetooth module onto the robot chassis in order to communicate wirelessley with the Arduino and sent commands in real-time. Our approach was to write a Python script that converted keyboard presses into commands that were sent over Serial to the Bluetooth module.</description>
     </item>
     
     <item>
