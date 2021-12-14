@@ -6,7 +6,7 @@ weight: 3
 heroHeading: 'Integrating all features into one product'
 heroSubHeading: 'Improve the chassis, integrate new motors, and send joystick commands'
 heroBackground: 'work/work1.jpg'
-thumbnail: 'work/work1-thumbnail.jpg'
+thumbnail: 'gallery/sprint3/dome1.jpg'
 images: ['gallery/sprint3/dome1.jpg', 
 		'gallery/sprint3/dome2.jpg',
 		'gallery/sprint2/dome3.jpg']
