@@ -24,7 +24,7 @@ The circuit includes an Arduino, a motor shield, and an HC-05 bluetooth chip. Th
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint1/</guid>
-      <description>Our goal for this sprint was to get a two-wheel robot to drive in a sphere with pre-loaded code.
+      <description>Our goal for this sprint was to design and build a two-wheel robot that drives in a sphere based on a pre-programmed path.
 Subteam Progress Software In this sprint, we were able to preload a set of drive commands to the robot to enable it to drive in the hamster ball. The robot is controlled via Arduino Uno. Future steps include wireless control of the robot using Bluetooth and some controller such as a joystick or laptop arrow keys.</description>
     </item>
     
@@ -64,7 +64,7 @@ Joystick The joystick is written in HTML/JS using a canvas element. Since this c
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint3/</guid>
-      <description>Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis.
+      <description>Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis, as well as fully integrate all mechanical and electrical components.
 Subteam Progress Software Our goal for the final sprint was to update the firmware to drive with three wheels instead of two, and to make the controller more intuitive by creating a virtual joystick controller that would send commands to the robot. The joystick sends angle and magnitude information, which is converted to wheel speeds in a Python script in order to reduce the amount of computation that the Arduino does.</description>
     </item>
     
