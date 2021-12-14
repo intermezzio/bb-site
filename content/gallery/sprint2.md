@@ -8,7 +8,7 @@ heroSubHeading: 'Improve the chassis and send bluetooth signals'
 heroBackground: 'https://source.unsplash.com/iqGtaQnk3VM/1600x400'
 thumbnail: 'gallery/sprint2/chassis_bottom.jpg'
 images: ['gallery/sprint2/chassis_bottom.jpg', 
-'gallery/sprint2/chassis_on_ground.jpg','gallery/sprint2/chassis_top.jpg','gallery/sprint2/hamster_ball.jpg','gallery/sprint2/bluetooth_session.png','https://source.unsplash.com/random/400x600/?business']
+'gallery/sprint2/chassis_on_ground.jpg','gallery/sprint2/chassis_top.jpg','gallery/sprint2/hamster_ball.jpg','gallery/sprint2/bluetooth_session.png']
 ---
 
 ## Sprint Goal
