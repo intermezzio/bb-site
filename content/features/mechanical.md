@@ -10,7 +10,7 @@ heroSubHeading: 'How BB-8 is built for success'
 heroBackground: 'services/service2.jpg'
 ---
 
-The main mechanical function of our BB8 was to get a small robot to drive within a sphere.  
+The main mechanical function of our BB-8 was to get a small robot to drive within a sphere. We built a bottom heavy robot inside of a spherical shell to mimic the functionality of BB-8.
 
 ## Creating the Sphere
 
@@ -36,10 +36,10 @@ Our chassis is fully recyclable using only metal, and MDF.  We laser cut our cha
 
 1) Add a head that stays on top
 
-2) Find more rigid ball or more flexible epoxy
+2) Find a more rigid ball or more flexible epoxy
 
- Unfortunately, the hamster ball was rather flexible while the epoxy was not.  This meant as the ball would flex, the epoxy would crack.  This would leave weird epoxy flakes on the inside of our ball that began to gunk up our wheels.
+  Unfortunately, the hamster ball was rather flexible while the epoxy was not.  This meant as the ball would flex, the epoxy would crack.  This would leave weird epoxy flakes on the inside of our ball that began to gunk up our wheels.
 
-3) *** Maybe: redesign motor mounts so that they sit at angle with the ball
+3) Redesign the motor mounts so that the wheels have a larger point of contact with the ball
 
-not sure why i think this would make it drive better so if you understand why pls elaborate.
+  Right now, each wheel connects to the sphere on only one point. Angling the wheels will give more points of contact for a smoother driving experience.
