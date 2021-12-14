@@ -16,4 +16,4 @@ Caitlin Kantor
 
 [Hazel Smith](https://github.com/Winterbl00m)
 
-Jadelin McLeod
+Jadelin Kirkvold
