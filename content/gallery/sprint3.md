@@ -8,11 +8,10 @@ heroSubHeading: 'Improve the chassis, integrate new motors, and send joystick co
 heroBackground: 'work/work1.jpg'
 thumbnail: 'work/work1-thumbnail.jpg'
 images: ['gallery/sprint3/dome1.jpg', 
-		'gallery/sprint3/dome2.jpg',
-		'gallery/sprint2/dome3.jpg']
+'gallery/sprint3/dome2.jpg','gallery/sprint3/dome3.jpg','gallery/sprint3/epoxy.JPG','gallery/sprint3/halves.jpg','gallery/sprint3/top_chassis.jpg']
 ---
 
-Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis.
+Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis, as well as fully integrate all mechanical and electrical components.
 
 ## Subteam Progress
 ### Software

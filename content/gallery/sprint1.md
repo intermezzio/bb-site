@@ -5,12 +5,12 @@ draft: false
 weight: 1
 heroHeading: 'A first pass for a driving robot'
 heroSubHeading: 'Design the first two-wheel robot inside of a hamster ball'
-heroBackground: 'https://source.unsplash.com/tjX_sniNzgQ/1600x400'
-thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'
+heroBackground: 'gallery/sprint1/closed_ball.jpg'
+thumbnail: 'gallery/sprint1/closed_ball.jpg'
 images: ['gallery/sprint1/first_run.png', 
-'gallery/sprint1/opened_ball.jpg','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+'gallery/sprint1/opened_ball.jpg','gallery/sprint1/closed_ball.jpg','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
 ---
-Our goal for this sprint was to get a two-wheel robot to drive in a sphere with pre-loaded code.
+Our goal for this sprint was to design and build a two-wheel robot that drives in a sphere based on a pre-programmed path.
 
 ## Subteam Progress
 ### Software

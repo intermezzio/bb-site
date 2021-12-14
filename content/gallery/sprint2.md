@@ -5,10 +5,11 @@ draft: false
 weight: 2
 heroHeading: 'Modified ball design'
 heroSubHeading: 'Improve the chassis and send bluetooth signals'
-heroBackground: 'https://source.unsplash.com/iqGtaQnk3VM/1600x400'
+heroBackground: 'gallery/sprint2/chassis_bottom.jpg'
 thumbnail: 'gallery/sprint2/chassis_bottom.jpg'
 images: ['gallery/sprint2/chassis_bottom.jpg', 
-'gallery/sprint2/chassis_on_ground.jpg','gallery/sprint2/chassis_top.jpg','gallery/sprint2/hamster_ball.jpg','gallery/sprint2/bluetooth_session.png']
+'gallery/sprint2/chassis_on_ground.jpg','gallery/sprint2/chassis_top.jpg','gallery/sprint2/hamster_ball.jpg','gallery/sprint2/bluetooth_session.png',
+'gallery/sprint2/head1.jpg']
 ---
 
 In this sprint, we wanted to make our robot wireless.  This included incorporating our Bluetooth module and adding batteries.
