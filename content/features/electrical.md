@@ -22,7 +22,7 @@ Here is the layout of our circuit
 
 BB-8 uses a HC-05 Bluetooth chip to communicate between the Arduino and a laptop.
 
-![image](/static/Electronics_Flowchart.png)
+![image](/static/Electronics_Flowchart.png) 
 
 On our laptop we convert the information from the joystick into speeds that our three motors should be going. We then send those speeds to the Arduino over bluetooth using the HC-05 blueetooth module to recieve the signal. Then the arduino process the motor speeds sends the motor shield instructions turn the correct motors on to drive in the desired direction. 
 
