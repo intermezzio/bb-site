@@ -33,7 +33,7 @@ in its use of materials to create an effective robot at a low cost.
 None of the fabrication costs below were taken out of the budget. We used material that was already available to us.
 
 |       | Part Fabricated   | Fabrication Time (Hours) | Stock Type          | Stock Amount | Stock Amount (sq. in.) | Stock Price (per sq. in.) | Stock Cost |
-|-------|-------------------|-------------------------:|---------------------|-------------:|-----------------------:|--------------------------:|-----------:|
+|-------|-------------------|-------------------------:|--------------------:|-------------:|-----------------------:|--------------------------:|-----------:|
 |       | Motor Mounts (x6) |                        2 | 1/32" Aluminum      |       8"x11" |                     88 |                  $0.04137 |      $3.64 |
 |       | Wheel Mounts (x3) |                        3 | 1/2" Diam. Nylon    |         4.5" |                    4.5 |                  $0.16300 |      $0.73 |
 |       | Arduino Platform  |                        2 | 1/32" Aluminum      |      8"x5.5" |                     44 |                  $0.04137 |      $1.82 |
