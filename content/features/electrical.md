@@ -7,7 +7,7 @@ featured: true
 weight: 1
 heroHeading: 'Electrical'
 heroSubHeading: 'How BB-8 is powered and controlled'
-heroBackground: 'services/service1.jpg'
+heroBackground: 'gallery/sprint2/chassis_top.jpg'
 ---
 
 An Arduino controls all of the electrical components on BB-8. The Arduino is connected

@@ -7,7 +7,7 @@ featured: true
 weight: 3
 heroHeading: 'Software Design'
 heroSubHeading: 'How the server assists in BB-8s Navigation'
-heroBackground: 'services/service2.jpg'
+heroBackground: 'bb8-in-ship.jpg'
 ---
 
 The software, written in Python, creates a clean interface for sending commands

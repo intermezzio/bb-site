@@ -5,9 +5,9 @@ icon: 'icons8-gears-100.png'
 draft: false
 featured: true
 weight: 2
-heroHeading: 'Mechancial Design'
+heroHeading: 'Mechanical Design'
 heroSubHeading: 'How BB-8 is built for success'
-heroBackground: 'services/service2.jpg'
+heroBackground: 'gallery/sprint3/halves.jpg'
 ---
 
 The main mechanical function of our BB-8 was to get a small robot to drive within a sphere. We built a bottom heavy robot inside of a spherical shell to mimic the functionality of BB-8.

@@ -7,7 +7,7 @@ draft: false
 weight: 5
 heroHeading: 'Low Cost Design'
 heroSubHeading: 'How the robot sticks to a tight budget'
-heroBackground: 'services/service2.jpg'
+heroBackground: 'bb8-in-ship.jpg'
 ---
 
 This project could be replicated with a $250 budget, as our team was resourceful

@@ -5,10 +5,9 @@ draft: false
 weight: 3
 heroHeading: 'Integrating all features into one product'
 heroSubHeading: 'Improve the chassis, integrate new motors, and send joystick commands'
-heroBackground: 'work/work1.jpg'
+heroBackground: 'gallery/sprint3/dome1.jpg'
 thumbnail: 'gallery/sprint3/dome1.jpg'
-images: ['gallery/sprint3/dome1.jpg', 
-'gallery/sprint3/dome2.jpg','gallery/sprint3/dome3.jpg','gallery/sprint3/epoxy.JPG','gallery/sprint3/halves.jpg','gallery/sprint3/top_chassis.jpg']
+images: ['gallery/sprint3/full_ball.jpg','gallery/sprint3/dome2.jpg','gallery/sprint3/dome3.jpg','gallery/sprint3/epoxy.JPG','gallery/sprint3/top_chassis.jpg','gallery/sprint3/halves.jpg']
 ---
 
 Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis, as well as fully integrate all mechanical and electrical components.

@@ -7,7 +7,7 @@ featured: true
 weight: 4
 heroHeading: 'Firmware'
 heroSubHeading: 'How the robot is programmed to operate'
-heroBackground: 'services/service1.jpg'
+heroBackground: 'bb8-in-ship.jpg'
 ---
 
 The Arduino's firmware is all written in Arduino C and allows BB-8 to receive
