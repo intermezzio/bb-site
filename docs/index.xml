@@ -27,7 +27,7 @@ Motor drivers insert motor shield info ? maybe put it in a new section</descript
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint1/</guid>
-      <description>This sprint is cool</description>
+      <description></description>
     </item>
     
     <item>
@@ -85,7 +85,7 @@ Code Summary The code starts by setting all of the speeds to zero. When a blueto
       
       <guid>https://intermezzio.github.io/bb-site/features/budget/</guid>
       <description>This project could be replicated with a $250 budget, as our team was resourceful in its use of materials to create an effective robot at a low cost.
-Budget table for budget</description>
+Budget     Material Used Estimated Cost Amount Taken out of Budget     Borrowed Adafruit Motorshield $19.95 $0.00    Arduino Uno $23.00 $0.00    Roll of Duct Tape $8.58 $0.00    4V Rechargeable Batteries (3x) $7.</description>
     </item>
     
     <item>
