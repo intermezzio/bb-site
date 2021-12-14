@@ -15,7 +15,7 @@ to various other components, including motors and a bluetooth module, to drive B
 
 ## Circuit Design
 
-insert circuit image here
+![image](//static/circuit_diagram.png)
 
 ## Bluetooth
 
