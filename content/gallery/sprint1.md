@@ -11,4 +11,4 @@ images: ['gallery/sprint1/first_run.png',
 'gallery/sprint1/opened_ball.jpg','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
 ---
 
-This sprint 
+
