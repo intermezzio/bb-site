@@ -14,9 +14,8 @@
       
       <guid>https://intermezzio.github.io/bb-site/features/electrical/</guid>
       <description>An Arduino controls all of the electrical components on BB-8. The Arduino is connected to various other components, including motors and a bluetooth module, to drive BB-8.
-Circuit Design Here is the layout of our circuit
-Bluetooth BB-8 uses a HC-05 Bluetooth chip to communicate between the Arduino and a laptop.
-On our laptop we convert the information from the joystick into speeds that our three motors should be going. We then send those speeds to the Arduino over bluetooth using the HC-05 blueetooth module to recieve the signal.</description>
+Circuit Design Here is the layout of our circuit:
+The circuit includes an Arduino, a motor shield, and an HC-05 bluetooth chip. The bluetooth module pairs with a laptop and connects to the Arduino to send and receive commands. The motor shield sends power to the motors to drive them.</description>
     </item>
     
     <item>
@@ -25,7 +24,8 @@ On our laptop we convert the information from the joystick into speeds that our 
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/features/mechanical/</guid>
-      <description>Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares ignisque quaerit dederat gemino Aethiopesque caelo ulciscitur est. Morte lugebere conatur Pallada quaerentes tulit, ignis vagatur undis, latitantem ignemque non laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat Coroneus est qui viscere barbariam seris. Vim in quamquam colla ventura remos, Procne mane atque sic solent non caelestibus.</description>
+      <description>The main mechanical function of our BB8 was to get a small robot to drive within a sphere.
+Creating the Sphere Making the Ball Openable Fabricating a sphere that is smooth inside &amp;amp; out is hard enough, but building it such that we could easily access the robot inside made it even more challenging. Our team decided to short cut the main fabrication portion by repurposing a 13&amp;quot; hamster ball. Hamster balls are meant to be assembled and then only opened from a small door so we had to make some modifications so that it could open and close in a way that let us access our robot.</description>
     </item>
     
     <item>

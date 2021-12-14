@@ -13,7 +13,7 @@
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint1/</guid>
-      <description>Sprint Goal Our goal for this sprint was to get a two-wheel robot to drive in a sphere with pre-loaded code.
+      <description>Our goal for this sprint was to get a two-wheel robot to drive in a sphere with pre-loaded code.
 Subteam Progress Software In this sprint, we were able to preload a set of drive commands to the robot to enable it to drive in the hamster ball. The robot is controlled via Arduino Uno. Future steps include wireless control of the robot using Bluetooth and some controller such as a joystick or laptop arrow keys.</description>
     </item>
     
@@ -23,8 +23,8 @@ Subteam Progress Software In this sprint, we were able to preload a set of drive
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint2/</guid>
-      <description>Sprint Goal In this sprint, we wanted to make our robot wireless. This included incorporating our Bluetooth module and adding batteries.
-Subteam Progress Software Our goal for this sprint was to incorporate the HC-05 bluetooth module onto the robot chassis in order to communicate wirelessley with the Arduino and sent commands in real-time. Our approach was to write a Python script that converted keyboard presses into commands that were sent over Serial to the Bluetooth module.</description>
+      <description>In this sprint, we wanted to make our robot wireless. This included incorporating our Bluetooth module and adding batteries.
+Subteam Progress Software Our goal for this sprint was to incorporate the HC-05 bluetooth module onto the robot chassis in order to communicate wirelessly with the Arduino and sent commands in real-time. Our approach was to write a Python script that converted keyboard presses into commands that were sent over Serial to the Bluetooth module.</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@ Subteam Progress Software Our goal for this sprint was to incorporate the HC-05 
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint3/</guid>
-      <description>Sprint Goal Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis.
+      <description>Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis.
 Subteam Progress Software Our goal for the final sprint was to update the firmware to drive with three wheels instead of two, and to make the controller more intuitive by creating a virtual joystick controller that would send commands to the robot. The joystick sends angle and magnitude information, which is converted to wheel speeds in a Python script in order to reduce the amount of computation that the Arduino does.</description>
     </item>
     
