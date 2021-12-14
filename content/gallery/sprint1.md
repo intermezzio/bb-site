@@ -8,7 +8,7 @@ heroSubHeading: 'Design the first two-wheel robot inside of a hamster ball'
 heroBackground: 'gallery/sprint1/closed_ball.jpg'
 thumbnail: 'gallery/sprint1/closed_ball.jpg'
 images: ['gallery/sprint1/first_run.png', 
-'gallery/sprint1/opened_ball.jpg','gallery/sprint1/closed_ball.jpg']
+'gallery/sprint1/opened_ball.jpg','gallery/sprint1/closed_ball.jpg','gallery/sprint1/ball_hook.png']
 ---
 Our goal for this sprint was to design and build a two-wheel robot that drives in a sphere based on a pre-programmed path.
 

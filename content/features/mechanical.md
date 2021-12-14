@@ -43,3 +43,21 @@ Our chassis is fully recyclable using only metal, and MDF.  We laser cut our cha
 3) Redesign the motor mounts so that the wheels have a larger point of contact with the ball
 
   Right now, each wheel connects to the sphere on only one point. Angling the wheels will give more points of contact for a smoother driving experience.
+
+## CAD Models
+
+This hexagonal chassis has a mount in the center for placing the Arduino and three edges on the bottom for mounting motors. The motors and batteries are mounted on the bottom of the chassis. Images of the modeled chassis and its components are shown below.
+
+![Chassis top](../../cad-1.png)
+
+![Arduino platform](../../cad-2.png)
+
+![](../../cad-3.png)
+
+![](../../cad-4.png)
+
+![](../../cad-5.png)
+
+![](../../cad-6.png)
+
+![](../../cad-7.png)
