@@ -10,9 +10,9 @@ heroBackground: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.e
 <div>
 {{< content-strip-center "/pages/about" "content1" >}}
 </div>
-<div>
+<!-- <div>
 {{< content-strip-right "/pages/about" "content2" >}}
-</div>
+</div> -->
 <!-- <div>
 {{< content-strip-center "/pages/about" "content3" >}}
 </div>

@@ -11,6 +11,6 @@ to create a fully navigatable spherical robot. This robot can be controlled via 
 joystick, and commands are sent from the joystick to the robot in real time for navigating
 in 2D.
 
-insert system diagram
+![image](../images/Electronics_Flowchart.png) 
 
-explain system diagram
+On our laptop we convert commands from the joystick into speeds that our three motors should be going. We then send those speeds to the Arduino over bluetooth using the HC-05 blueetooth module to recieve the signal. Then the arduino normalizes the motor speeds and relays the commands to the motor shield to guide the robot in the right direction. 

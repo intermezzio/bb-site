@@ -10,7 +10,6 @@ thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'
 images: ['gallery/sprint1/first_run.png', 
 'gallery/sprint1/opened_ball.jpg','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
 ---
-## Sprint Goal
 Our goal for this sprint was to get a two-wheel robot to drive in a sphere with pre-loaded code.
 
 ## Subteam Progress
@@ -21,3 +20,4 @@ In this sprint, we were able to preload a set of drive commands to the robot to 
 In this sprint we used motors from the PIE mini project 3 kits to build our 2 wheel drive.  We designed a 10" wide hexagonal chassis to mount our wheels and circuitry to.  We had one stabilizer in the back to keep our robot balanced.  We also modified our hamster ball to be able to close it and reopen it.  Some challenges we faced this sprint were that our robot did not have a low center of gravity in the ball.  This would result in it driving inside of the ball instead of getting the ball to roll.
 
 ### Electrical
+We used an outlet for power with a motor shield and Arduino to create the first prototype. We did not yet have batteries to power the Arduino until Sprint 2.

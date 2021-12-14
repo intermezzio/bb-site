@@ -14,17 +14,13 @@ An Arduino controls all of the electrical components on BB-8. The Arduino is con
 to various other components, including motors and a bluetooth module, to drive BB-8.
 
 ## Circuit Design
-Here is the layout of our circuit 
+Here is the layout of our circuit:
 
-![image](/static/circuit_diagram.png)
+![image](../../images/circuit_diagram.png)
 
-## Bluetooth
-
-BB-8 uses a HC-05 Bluetooth chip to communicate between the Arduino and a laptop.
-
-![image](/static/Electronics_Flowchart.png) 
-
-On our laptop we convert the information from the joystick into speeds that our three motors should be going. We then send those speeds to the Arduino over bluetooth using the HC-05 blueetooth module to recieve the signal. Then the arduino process the motor speeds sends the motor shield instructions turn the correct motors on to drive in the desired direction. 
+The circuit includes an Arduino, a motor shield, and an HC-05 bluetooth chip.
+The bluetooth module pairs with a laptop and connects to the Arduino to send
+and receive commands. The motor shield sends power to the motors to drive them.
 
 ## Parts Used
 - Arduino Uno

@@ -14,9 +14,8 @@
       
       <guid>https://intermezzio.github.io/bb-site/features/electrical/</guid>
       <description>An Arduino controls all of the electrical components on BB-8. The Arduino is connected to various other components, including motors and a bluetooth module, to drive BB-8.
-Circuit Design Here is the layout of our circuit
-Bluetooth BB-8 uses a HC-05 Bluetooth chip to communicate between the Arduino and a laptop.
-On our laptop we convert the information from the joystick into speeds that our three motors should be going. We then send those speeds to the Arduino over bluetooth using the HC-05 blueetooth module to recieve the signal.</description>
+Circuit Design Here is the layout of our circuit:
+The circuit includes an Arduino, a motor shield, and an HC-05 bluetooth chip. The bluetooth module pairs with a laptop and connects to the Arduino to send and receive commands. The motor shield sends power to the motors to drive them.</description>
     </item>
     
     <item>
@@ -25,7 +24,7 @@ On our laptop we convert the information from the joystick into speeds that our 
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint1/</guid>
-      <description>Sprint Goal Our goal for this sprint was to get a two-wheel robot to drive in a sphere with pre-loaded code.
+      <description>Our goal for this sprint was to get a two-wheel robot to drive in a sphere with pre-loaded code.
 Subteam Progress Software In this sprint, we were able to preload a set of drive commands to the robot to enable it to drive in the hamster ball. The robot is controlled via Arduino Uno. Future steps include wireless control of the robot using Bluetooth and some controller such as a joystick or laptop arrow keys.</description>
     </item>
     
@@ -35,7 +34,8 @@ Subteam Progress Software In this sprint, we were able to preload a set of drive
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/features/mechanical/</guid>
-      <description>Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares ignisque quaerit dederat gemino Aethiopesque caelo ulciscitur est. Morte lugebere conatur Pallada quaerentes tulit, ignis vagatur undis, latitantem ignemque non laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat Coroneus est qui viscere barbariam seris. Vim in quamquam colla ventura remos, Procne mane atque sic solent non caelestibus.</description>
+      <description>The main mechanical function of our BB-8 was to get a small robot to drive within a sphere. We built a bottom heavy robot inside of a spherical shell to mimic the functionality of BB-8.
+Creating the Sphere Making the Ball Openable Fabricating a sphere that is smooth inside &amp;amp; out is hard enough, but building it such that we could easily access the robot inside made it even more challenging.</description>
     </item>
     
     <item>
@@ -44,8 +44,8 @@ Subteam Progress Software In this sprint, we were able to preload a set of drive
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint2/</guid>
-      <description>Sprint Goal In this sprint, we wanted to make our robot wireless. This included incorporating our Bluetooth module and adding batteries.
-Subteam Progress Software Our goal for this sprint was to incorporate the HC-05 bluetooth module onto the robot chassis in order to communicate wirelessley with the Arduino and sent commands in real-time. Our approach was to write a Python script that converted keyboard presses into commands that were sent over Serial to the Bluetooth module.</description>
+      <description>In this sprint, we wanted to make our robot wireless. This included incorporating our Bluetooth module and adding batteries.
+Subteam Progress Software Our goal for this sprint was to incorporate the HC-05 bluetooth module onto the robot chassis in order to communicate wirelessly with the Arduino and sent commands in real-time. Our approach was to write a Python script that converted keyboard presses into commands that were sent over Serial to the Bluetooth module.</description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@ Joystick The joystick is written in HTML/JS using a canvas element. Since this c
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint3/</guid>
-      <description>Sprint Goal Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis.
+      <description>Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis.
 Subteam Progress Software Our goal for the final sprint was to update the firmware to drive with three wheels instead of two, and to make the controller more intuitive by creating a virtual joystick controller that would send commands to the robot. The joystick sends angle and magnitude information, which is converted to wheel speeds in a Python script in order to reduce the amount of computation that the Arduino does.</description>
     </item>
     
@@ -103,9 +103,8 @@ Budget     Material Used Estimated Cost Amount Taken out of Budget     Borrowed 
       <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/history/</guid>
-      <description>About Heading Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
-sssss
-</description>
+      <description>About Heading  Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+    </description>
     </item>
     
   </channel>
