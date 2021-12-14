@@ -10,7 +10,7 @@ thumbnail: 'gallery/sprint3/dome1.jpg'
 images: ['gallery/sprint3/full_ball.jpg','gallery/sprint3/chassisAngle.png','gallery/sprint3/dome3.jpg','gallery/sprint3/epoxy.JPG','gallery/sprint3/top_chassis.jpg','gallery/sprint3/halves.jpg','gallery/sprint3/chassisTOP.PNG','gallery/sprint3/chassisBottom.PNG']
 ---
 
-Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis, as well as fully integrate all mechanical and electrical components.
+Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis, as well as fully integrate all mechanical and electrical components. A demo of the robot can be found [here](https://youtu.be/k5UbNISVamQ)
 
 ## Subteam Progress
 ### Software

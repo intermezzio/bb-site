@@ -33,8 +33,8 @@ Subteam Progress Software Our goal for this sprint was to incorporate the HC-05 
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://intermezzio.github.io/bb-site/gallery/sprint3/</guid>
-      <description>Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis, as well as fully integrate all mechanical and electrical components.
-Subteam Progress Software Our goal for the final sprint was to update the firmware to drive with three wheels instead of two, and to make the controller more intuitive by creating a virtual joystick controller that would send commands to the robot. The joystick sends angle and magnitude information, which is converted to wheel speeds in a Python script in order to reduce the amount of computation that the Arduino does.</description>
+      <description>Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis, as well as fully integrate all mechanical and electrical components. A demo of the robot can be found here
+Subteam Progress Software Our goal for the final sprint was to update the firmware to drive with three wheels instead of two, and to make the controller more intuitive by creating a virtual joystick controller that would send commands to the robot.</description>
     </item>
     
   </channel>
