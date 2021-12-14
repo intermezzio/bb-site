@@ -11,7 +11,6 @@ images: ['https://source.unsplash.com/random/400x600/?nature',
 'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
 ---
 
-## Sprint Goal
 Our goal for this sprint was to integrate the wireless drive code with the newly built, three-wheel chassis.
 
 ## Subteam Progress
@@ -22,3 +21,4 @@ Our goal for the final sprint was to update the firmware to drive with three whe
 In this sprint, we focused on making our robot drive better.  We finally received our omni wheels in the mail and realized they had a much harder time trying to overcome the bumps in the ball compared to the larger wheels we were using before.  We tried a few different things, but turns out the best way to make the ridges in the ball more approachable is to duct tape pipe cleaners to either side of the bumps.  This makes the lip up to the ridge much smoother and more like a ramp than a curb.  We also created a protective dome to house our electronics.
 
 ### Electrical
+In this sprint, we determined that the batteries were sending a higher voltage as one test led to the motor shield catching fire. The chassis now runs on 3 batteries instead of 4 and the broken components were replaced. Additionally, we created a dome that protects the electrical components inside of the ball in case the components flip upside down or otherwise experience unexpected forces.
